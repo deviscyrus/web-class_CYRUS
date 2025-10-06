@@ -4,16 +4,19 @@ body{
     width: 80%;
     margin: auto;
 }
+
 .sectionclass{
     float: left;
     margin-left: 5px;
     width: 40%
 }
+
 .weldinghelmet{
     width: 80%;
     height: auto;
 }
 footer{
     clear: both;
-    margin-left: 500px;
+    margin-left: 600px;
+
 }
