@@ -1,3 +1,19 @@
-*{
+body{
     background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+.sectionclass{
+    float: left;
+    margin-left: 5px;
+    width: 40%
+}
+.weldinghelmet{
+    width: 80%;
+    height: auto;
+}
+footer{
+    clear: both;
+    margin-left: 500px;
 }
