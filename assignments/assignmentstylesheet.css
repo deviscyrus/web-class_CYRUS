@@ -1,0 +1,77 @@
+body{
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
+    line-height:1.5;
+    margin:0;
+    color:#222
+}
+header.site-header{
+    background:linear-gradient(90deg,#f8fafc,#fff);
+    border-bottom:1px solid #e6eef8
+}
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:1rem
+}
+.site-title{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem
+}
+nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    gap:.75rem
+}
+nav a{
+    color:var(--accent);
+    text-decoration:none;
+    padding:.35rem .6rem;
+    border-radius:6px
+}
+nav a:hover{
+    background: bluer(--accent);
+}
+.hero{
+    display:grid;
+    grid-template-columns:1fr 260px;
+    gap:1rem;
+    align-items:center;
+    padding:1.25rem 0
+}
+.hero h1{
+    margin:.25rem 0;
+    font-size:1.5rem
+}
+.intro p{
+    margin:.5rem 0;
+    color:var(--muted)
+}
+.photo{
+    width:100%;
+    max-width:240px;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid #ddd
+}
+.photo img{
+    display:block;
+    width:100%;
+    height:auto
+}
+.details{
+    background:#fbfdff;
+    border:1px solid #eef6ff;
+    padding:.75rem;
+    border-radius:8px
+}
+footer.site-footer{
+    text-align:center;
+    padding:1rem 0;color:#666;
+    font-size:.9rem;
+    border-top:1px solid #f0f4f8;
+    margin-top:2rem
+}
